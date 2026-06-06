@@ -7,7 +7,7 @@ from DrissionPage import ChromiumPage, ChromiumOptions
 # --- 配置区 ----
 URL = "https://g4f.gg/mybbsya"
 TARGET_HOURS = 72
-MAX_LOOPS = 20
+MAX_LOOPS = 5
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
