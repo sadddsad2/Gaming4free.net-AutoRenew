@@ -16,8 +16,8 @@ jobs:
          #  token: ${{ secrets.PRIVATE_REPO_TOKEN }}
          #  path: private
 
-      - name: 📂 移动脚本到工作目录
-        run: mv private/main.py main.py
+      # - name: 📂 移动脚本到工作目录
+       #  run: mv private/main.py main.py
 
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
